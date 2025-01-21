@@ -368,7 +368,7 @@ border-radius: 2rem;
 /* SECTION 4 */
 .free{
   background: #ffa700;
-  padding: 6rem;
+  padding: 6;
 }
 .free .free__wrapper{
   text-align: center;
@@ -387,6 +387,7 @@ border-radius: 2rem;
   color: #2b2b2b;
   font-size:auto;
   padding-bottom: 3rem;
+  text-align: center;
 }
 .free .free__wrapper a{
   background-color: #2b2b2b;
@@ -509,7 +510,7 @@ text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 5rem;
+  gap: 1rem;
 }
 .banner1 .arrow {
 display: flex;
@@ -669,7 +670,7 @@ border-radius: 2rem;
 
 @media screen and (max-width:500px){
   .latest2 .latest2__title{
-    text-align: center;
+    text-align: centeR;
   }
   .latest2 .latest2__title h2 {
     font-size: 4rem;
@@ -683,5 +684,90 @@ border-radius: 2rem;
   }
   .latest2 .latest2__card {
     width: 100%;
+  }
+}
+
+
+/* SERVICES */
+.services {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  background: white;
+}
+.services .fa-solid {
+  display: grid;
+  justify-items: center;
+  color: #ffa700;
+  font-size: 3rem;
+  padding-bottom: 3rem;
+}
+.services .services__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 5rem;
+  max-width: 117rem;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+.services h2 {
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+  color: #ffa700;
+  font-size: 5rem;
+  font-weight: 600;
+}
+.services p {
+  margin-top: 3rem;
+  text-align: justify;
+}
+.services h3 {
+  font-size: 3rem;
+  color: #ffa700;
+  font-weight: 530;
+}
+.services h6 {
+  font-size: 1rem;
+}
+.services img {
+  padding-top: 15rem;
+}
+.services .services__content:last-child a {
+  display: none;
+  }
+.services__content:nth-child(even) {
+  background: #2b2b2b;
+}
+.services__content:nth-child(even) .services__text {
+  order: 2;
+}
+.services__content:nth-child(even) p, .services__content:nth-child(even) h6 {
+  color: white;
+}
+@media screen and (max-width:500px) {
+  .services__content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .services__content .services__wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .services__content .services__text {
+    order: 2;
+  }
+  .services__content h2 {
+    font-size: 4rem;
+    text-align: center;
+  }
+  .services__content p, .services__content {
+    text-align: center;
+  }
+  .services__content h3 {
+    font-size: 2.5rem;
+  }
+  .services__content img {
+    width: 20rem;
+    margin: 0 auto;
   }
 }

@@ -771,3 +771,138 @@ border-radius: 2rem;
     margin: 0 auto;
   }
 }
+
+
+
+/* Updates */
+.Updates{
+  background: #ffffff;
+  padding: 13rem;
+  padding-bottom: 5rem;
+}
+.Updates .Updates__title h2{
+color: #ffa700;
+font-size: 5rem;
+font-weight: 600;
+}
+
+.Updates .Updates__title p{
+  font-size: 1.8rem;
+  padding-bottom: 5rem;
+}
+.Updates .Updates__wrapper{
+  display: grid;
+  grid-template-columns: 2.5fr 1.5fr;
+}
+.Updates .Updates__post p{
+  font-size: 1.8rem;
+  text-align: justify;
+  padding-bottom: 2rem;
+}
+.Updates .Updates__post ul{
+display: flex;
+flex-direction: row;gap: 2rem;
+padding-top: 1.5rem;
+}
+.Updates .Updates__post h4{
+color: #ffa700;
+font-size: 2rem;
+font-weight: 700;
+padding-bottom: 2rem;
+}
+.Updates .Updates__post a{
+  color: #ffa700;
+}
+.Updates .Updates__category {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 6rem;
+  font-weight: 600;
+}
+.Updates .Updates__category .name h5{
+  color: #ffa700;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.Updates .Updates__category .name p{
+  padding: 1rem;
+}
+.Updates .Updates__category .number p{
+  padding: 1rem;
+  display: flex;
+  justify-content: end;
+}
+.Updates .Updates__category .number{
+  padding-top: 2.8rem;
+}
+.Updates .recent__card{
+  display: flex;
+  padding-left: 6rem;
+  padding-top: 2rem;
+  gap: 30px;
+}
+.Updates .recent__card{
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.Updates .Updates__recent h5{
+  color: #ffa700;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-left: 6rem;
+  padding-bottom: 6rem;
+  margin-top: 3rem;
+}
+.Updates .recent__card h6{
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+}
+.Updates .recent__card p{
+  padding-bottom: 0rem;
+}
+.Updates .Updates__buttons h5{
+  color: #ffa700;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 9rem;
+  padding-bottom: 1.5rem;
+
+}
+.Updates .Updates__buttons ul{
+  display: flex;
+  width: 40rem;
+  flex-wrap: wrap;
+}
+.Updates .Updates__buttons ul li a{
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  color: #2b2b2b;
+  background: #ffffff;
+  border: 1.5px solid #2b2b2b;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+}
+.Updates .Updates__buttons ul li:hover a {
+  background-color: #2b2b2b;
+  color: #ffffff;
+}
+
+/* REPEATABLE PATTERNS */
+.btn{
+  display: inline-block;
+  padding: 1.5rem 2rem;
+  border-radius: 5rem;
+  color: #ffffff;
+}
+.btn:hover{
+  scale: 1.1;
+}
+.btn.bg--primary{
+  background: #ffa700;
+}
+.btn.bg--dark{
+  background: #2b2b2b;
+  color: #ffffff;
+}

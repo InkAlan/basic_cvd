@@ -4,3 +4,11 @@ burgir.addEventListener("click",() => {
 burgir.classList.toggle("open");
 headerNav.classList.toggle("open");
  });
+ const b2Top = document.querySelector(".backToTop");
+ window.addEventListener("scroll", () => {
+   if (window.scrollY >= 300) {
+     b2Top.classList.add("open");
+   } else {
+     b2Top.classList.remove("open");
+   }
+ });

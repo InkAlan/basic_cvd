@@ -966,18 +966,18 @@ background: #ffa700;
   font-size: 2rem;
   margin-bottom: 4rem;
 }
-.contact__details td {
+.addcontact__details td {
   color: white; 
 }
-.contact__details td i {
+.addcontact__details td i {
   color: #ffa700; 
 }
-.contact__details td {
+.addcontact__details td {
   padding: 0 5px; 
   color: white;   
   padding-bottom: 3rem;
 }
-.contact__details td i {
+.addcontact__details td i {
   color: #ffa700 
 }
 .contact__line {
@@ -999,23 +999,23 @@ background: #ffa700;
   font-size: 3rem;
   text-decoration: none;
 }
-.contact__details ul li {
+.addcontact__details ul li {
   gap: 3rem;
   display: flex;
   align-items: center;
   margin: 1.25rem 0;
   color: #ffa700;
 }
-.contact .contact__title table tr {
+.addcontact .contact__title table tr {
   padding-left: 10rem;
 }
-.contact .contact__title table {
+.addcontact .contact__title table {
   height: 10rem;
 }
-.contact .contact__horizontal {
+.addcontact .contact__horizontal {
   color: #ffffff;
 }
-.contact__details .icon {
+.addcontact__details .icon {
   margin-right: 1.25rem;
 }
 .contact__form {
@@ -1096,6 +1096,20 @@ background: #ffa700;
 .popup-close:hover {
   background-color: #e68a00;
 }
-.contact {
+.addcontact {
   border-bottom: 1px solid #ffffff;
+}
+/* Mobile View */
+@media screen and (max-width: 500px) {
+  .addcontact .contact__container{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 0 2rem;
+  }
+.addcontact__details .contact__title {
+  text-align: center;
+}
+.contact__title h2{
+  text-align: center;
+}
 }
